@@ -3,7 +3,7 @@ from dataclasses import dataclass
 @dataclass
 class SKConfig:
     M = 2
-    G = 1
+    G = 32
     r = 16
 
     kernel_sizes = (3, 5)
